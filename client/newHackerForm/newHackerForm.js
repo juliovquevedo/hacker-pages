@@ -15,7 +15,9 @@ Template.newHackerForm.events({
       allegiance: allegiance
     }
 
-    console.log(newHacker);
+      Hackers.insert(newHacker);
+      alert("Your opperation was successful");
+
   }
 
 });
